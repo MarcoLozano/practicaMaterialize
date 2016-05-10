@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-wrapper">
+    <a href="" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="">sass</a></li>
+      <li><a href="">sass <span class="new badge">4</span></a></li>
+      <li><a href="">sass</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="col s12 m12 l6">
+  <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="" alt="" class="circle">
+      <span class="title">Title</span>
+      <p>Primer Linea <br>
+          Segunda Linea
+        </p>
+          <a href="" class="secondary-content"><i class="material icons"></i></a>
+    </li>
+  </ul>
+</div>
+
+<script src="js/materialize.js"></script>
+	
+	<script>
+	
+	$(document).ready(function(){
+	
+		$(".button-collapse").sideNav();
+    $('select').material_select();
+    $('.fixed-action-btn').openFAB();
+    $('.fixed-action-btn').closeFAB();
+	
+	});
+	</script>
+
+</body>
+</html>
